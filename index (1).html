@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>Dashboard</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Dashboard da Planilha</h1>
+
+<div class="cards">
+
+<div class="card">
+<h3>Total de registros</h3>
+<p id="total">0</p>
+</div>
+
+<div class="card">
+<h3>Última entrada</h3>
+<p id="ultimo">---</p>
+</div>
+
+</div>
+
+<div class="grafico">
+
+<canvas id="grafico"></canvas>
+
+</div>
+
+<div class="tabela-area">
+
+<input type="text" id="busca" placeholder="Pesquisar...">
+
+<table>
+
+<thead>
+<tr id="cabecalho"></tr>
+</thead>
+
+<tbody id="corpo"></tbody>
+
+</table>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
